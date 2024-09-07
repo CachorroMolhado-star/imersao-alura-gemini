@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+body{
+    background-color: #DDDDDD;
+    font-family: "Chakra Petch", sans-serif;
+    display: flex;/*transforma os itens em flexbox*/
+    flex-direction: column;/*alinha todos os itens na vertical*/
+    align-items: center;/* centraliza items na horizontal*/
+    justify-content: center;/*centraliza itens na vertical*/
+    height: 100vh;/*pra usar toda a portview e deixar tudo realmente no centro*/
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    letter-spacing: 0.3em;
+}
+
+section#pesquisa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 30px;
+}
+
+input{
+    height: 50px;
+    width: 500px;
+    border: none;
+    border-radius: 30px;
+    margin: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1em;
+}
+
+button{
+    background-color: #3c6997;
+    font-weight: bold;
+    font-size: 1em;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: #4288ce;
+    border: .5px solid black;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
